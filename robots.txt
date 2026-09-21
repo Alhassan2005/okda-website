@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://alhassan2005.github.io/okda-website/sitemap.xml
