@@ -44,33 +44,31 @@ if (slider) {
 
     if (images.length > 0) {
 
-        // ترتيب الصور بشكل عشوائي عند كل تحميل للموقع
-        images.sort(() => Math.random() - 0.5);
+        // ترتيب الصور عشوائيًا
+        for (let i = images.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [images[i], images[j]] = [images[j], images[i]];
+        }
 
-        // إعادة ترتيب الصور داخل السلايدر
-        images.forEach(img => {
-            slider.appendChild(img);
-        });
+        // إعادة ترتيب الصور
+        images.forEach(img => slider.appendChild(img));
 
         let currentImage = 0;
 
         // إظهار أول صورة
         images[currentImage].classList.add("active");
 
-        // تغيير الصورة تلقائيًا
+        // تغيير الصورة كل 4 ثواني
         setInterval(() => {
-
             images[currentImage].classList.remove("active");
 
             currentImage++;
 
-            // يرجع لأول صورة بعد آخر صورة
             if (currentImage >= images.length) {
                 currentImage = 0;
             }
 
             images[currentImage].classList.add("active");
-
         }, 4000);
     }
 }
