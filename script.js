@@ -37,24 +37,40 @@ images.forEach(img => {
     slider.appendChild(img);
 });
 
-const sliderImages = slider.querySelectorAll("img");
+const slider = document.querySelector(".about-slider");
 
-let currentImage = 0;
+if (slider) {
+    const images = Array.from(slider.querySelectorAll("img"));
 
-// أول صورة
-sliderImages[currentImage].classList.add("active");
+    if (images.length > 0) {
 
-// تغيير الصورة كل 4 ثواني
-setInterval(() => {
+        // ترتيب الصور بشكل عشوائي عند كل تحميل للموقع
+        images.sort(() => Math.random() - 0.5);
 
-    sliderImages[currentImage].classList.remove("active");
+        // إعادة ترتيب الصور داخل السلايدر
+        images.forEach(img => {
+            slider.appendChild(img);
+        });
 
-    currentImage++;
+        let currentImage = 0;
 
-    if (currentImage >= sliderImages.length) {
-        currentImage = 0;
+        // إظهار أول صورة
+        images[currentImage].classList.add("active");
+
+        // تغيير الصورة تلقائيًا
+        setInterval(() => {
+
+            images[currentImage].classList.remove("active");
+
+            currentImage++;
+
+            // يرجع لأول صورة بعد آخر صورة
+            if (currentImage >= images.length) {
+                currentImage = 0;
+            }
+
+            images[currentImage].classList.add("active");
+
+        }, 4000);
     }
-
-    sliderImages[currentImage].classList.add("active");
-
-}, 4000);
+}
