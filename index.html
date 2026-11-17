@@ -1,443 +1,234 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <title>عُقدة | OKDA - سجاد يدوي منذ 1981</title>
-
-    <meta name="description"
-        content="عُقدة | OKDA — سجاد يدوي منذ 1981. قطع مختارة من السجاد اليدوي تجمع بين أصالة التراث وجودة الخامة ودقة التفاصيل. مشاهدة منزلية وتوصيل خلال 24 ساعة.">
-
-    <meta name="robots" content="index, follow">
-
-    <link rel="canonical"
-        href="https://alhassan2005.github.io/okda-website/">
-
-    <!-- Open Graph - Facebook / Instagram / WhatsApp -->
-    <meta property="og:title"
-        content="عُقدة | OKDA - سجاد يدوي منذ 1981">
-
-    <meta property="og:description"
-        content="Rooted in Heritage. Crafted by Hand. سجاد يدوي منذ 1981.">
-
-    <meta property="og:url"
-        content="https://alhassan2005.github.io/okda-website/">
-
-    <meta property="og:type"
-        content="website">
-
-    <meta property="og:site_name"
-        content="عُقدة | OKDA">
-
-    <meta property="og:image"
-        content="https://alhassan2005.github.io/okda-website/images/Logo.jpeg">
-
-    <!-- Favicon -->
-    <link rel="icon" href="images/Logo.jpeg">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#121823">
+  <title>عُقدة | OKDA — سجاد يدوي منذ 1981</title>
+  <meta name="description" content="عُقدة | OKDA — سجاد يدوي منذ 1981. اكتشف السجاد اليدوي، واستفد من عروض Black Friday، مع خدمة المشاهدة المنزلية والتوصيل خلال 24 ساعة.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alhassan2005.github.io/okda-website/">
+  <meta property="og:title" content="عُقدة | OKDA — Handwoven Rugs Since 1981">
+  <meta property="og:description" content="Rooted in Heritage. Crafted by Hand. اكتشف أنواع السجاد اليدوي وعروض عُقدة.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alhassan2005.github.io/okda-website/">
+  <meta property="og:image" content="https://alhassan2005.github.io/okda-website/images/Logo.jpeg">
+  <meta property="og:site_name" content="عُقدة | OKDA">
+  <link rel="icon" href="images/Logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "عُقدة | OKDA",
+    "url": "https://alhassan2005.github.io/okda-website/",
+    "logo": "https://alhassan2005.github.io/okda-website/images/Logo.jpeg",
+    "description": "Handwoven Rugs Since 1981. Rooted in Heritage. Crafted by Hand."
+  }
+  </script>
 </head>
-
 <body>
+  <div class="scroll-progress" id="scrollProgress"></div>
 
-    <!-- ================= NAVBAR ================= -->
-    <header class="navbar" id="navbar">
-        <div class="container nav-content">
+  <!-- Black Friday announcement -->
+  <a class="sale-ribbon" href="#offers" aria-label="انتقل مباشرة إلى عروض بلاك فرايداي" title="اضغط لاستكشاف عروض بلاك فرايداي">
+    <div class="sale-ribbon__track">
+      <span><b>BLACK FRIDAY</b> خصومات تصل إلى <strong>31%</strong> على مختارات السجاد اليدوي</span>
+      <i>✦</i>
+      <span>عُقدة | OKDA — عروض لفترة محدودة</span>
+      <i>✦</i>
+      <span><b>BLACK FRIDAY</b> خصومات تصل إلى <strong>31%</strong> على مختارات السجاد اليدوي</span>
+      <i>✦</i>
+      <span>مشاهدة منزلية • توصيل خلال 24 ساعة</span>
+      <i>✦</i>
+    </div>
+  </a>
 
-            <a href="#home" class="brand">
-                <div class="logo-wrap">
-                    <!-- ضع اللوجو الخاص بك داخل images باسم logo.png -->
-                    <img src="images/Logo.jpeg" alt="عُقدة OKDA Logo"
-                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <span class="logo-fallback">OKDA</span>
-                </div>
+  <header class="site-header" id="navbar">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="عُقدة الصفحة الرئيسية">
+        <span class="brand__logo"><img src="images/Logo.jpeg" alt="شعار عُقدة OKDA"></span>
+        <span class="brand__copy"><strong>عُقدة <em>|</em> OKDA</strong><small>HANDWOVEN RUGS SINCE 1981</small></span>
+      </a>
+      <nav class="main-nav" id="navLinks" aria-label="القائمة الرئيسية">
+        <a href="#home">الرئيسية</a>
+        <a href="#story">حكايتنا</a>
+        <a href="#offers">المجموعة</a>
+        <a href="#offers">عروض بلاك فرايداي</a>
+        <a href="#experience">تجربتك</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+      <a class="header-cta" href="#offers">اكتشف العروض <span>↗</span></a>
+      <button class="menu-toggle" id="menuBtn" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
 
-                <div class="brand-text">
-                    <strong>عُقدة | OKDA</strong>
-                    <small>Handwoven Rugs Since 1981</small>
-                </div>
-            </a>
-
-            <nav class="nav-links" id="navLinks">
-                <a href="#home">الرئيسية</a>
-                <a href="#about">نبذة عنا</a>
-                <a href="#collection">المجموعة</a>
-                <a href="#services">خدماتنا</a>
-                <a href="#contact">تواصل معنا</a>
-            </nav>
-
-            <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-grain"></div>
+      <div class="hero-orbit hero-orbit--one"></div>
+      <div class="hero-orbit hero-orbit--two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> HANDWOVEN RUGS · SINCE 1981</p>
+          <h1>مش مجرد سجادة،<br><span>دي حكاية بتعيش.</span></h1>
+          <p class="hero-lead">من خيوط التراث وتفاصيل الحرفة، بنختار قطع تضيف للمكان روحًا وشخصية… وتفضل جزءًا من الحكاية لسنين.</p>
+          <div class="hero-actions">
+            <a class="button button--gold" href="#offers">اكتشف المجموعة <i class="fa-solid fa-arrow-left"></i></a>
+            <a class="button button--ghost" href="#story">حكاية عُقدة</a>
+          </div>
+          <div class="hero-proof">
+            <div><strong>1981</strong><span>بداية الحكاية</span></div>
+            <div><strong>24 ساعة</strong><span>خدمة توصيل</span></div>
+            <div><strong>منزلك</strong><span>المعاينة قبل الاختيار</span></div>
+          </div>
         </div>
-    </header>
-
-
-    <!-- ================= HERO ================= -->
-    <main>
-
-        <section class="hero" id="home">
-            <div class="hero-overlay"></div>
-
-            <div class="container hero-content">
-
-                <p class="eyebrow">HANDWOVEN RUGS • SINCE 1981</p>
-
-                <h1>
-                    جذور من التراث،<br>
-                    <span>صُنعت بأيادي الحرفيين.</span>
-                </h1>
-
-                <p class="hero-subtitle">
-                    اكتشف عالم عُقدة من السجاد اليدوي المختار بعناية،
-                    حيث يلتقي التراث بالحرفة والتفاصيل التي تدوم.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#collection" class="btn btn-primary">اكتشف مجموعتنا</a>
-                    <a href="#contact" class="btn btn-outline">تواصل معنا</a>
-                </div>
-
-                <div class="hero-features">
-                    <div>
-                        <span>1981</span>
-                        <small>منذ</small>
-                    </div>
-                    <div>
-                        <span>24h</span>
-                        <small>توصيل</small>
-                    </div>
-                    <div>
-                        <span>🏠</span>
-                        <small>مشاهدة منزلية</small>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ================= ABOUT ================= -->
-        <section class="about section" id="about">
-            <div class="container about-grid">
-
-                <div class="about-image image-box">
-
-                    <div class="about-slider">
-                        <img src="images/image20.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image11.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image18.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image15.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image13.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image7.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image8.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image9.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image10.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image16.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image12.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image17.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image19.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image21.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image22.jpeg" alt="سجاد يدوي من عُقدة">
-                        <img src="images/image23.jpeg" alt="سجاد يدوي من عُقدة">
-                    </div>
-
-                    <div class="image-label">OKDA</div>
-
-                </div>
-
-                <div class="about-content">
-
-                    <p class="section-kicker">ABOUT OKDA</p>
-
-                    <h2>
-                        حكاية تُنسج<br>
-                        <span>عقدة بعد عقدة.</span>
-                    </h2>
-
-                    <p>
-                        في عُقدة | OKDA، نؤمن أن السجادة اليدوية ليست مجرد قطعة
-                        تُكمل ديكور المنزل، بل قطعة تحمل حكاية وتراثًا وحرفة
-                        امتدت عبر الأجيال.
-                    </p>
-
-                    <p>
-                        منذ 1981 ونحن نحتفي بجمال الصناعة اليدوية ونختار قطعًا
-                        تجمع بين أصالة التراث، جودة الخامة، ودقة التفاصيل؛
-                        لتكون كل سجادة جزءًا مميزًا من المكان الذي تنتمي إليه.
-                    </p>
-
-                    <div class="about-signature">
-                        <span>Rooted in Heritage.</span>
-                        <span>Crafted by Hand.</span>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- ================= COLLECTION ================= -->
-        <section class="collection section" id="collection">
-            <div class="container">
-
-                <div class="section-heading">
-                    <div>
-                        <p class="section-kicker">OUR COLLECTION</p>
-                        <h2>مختاراتنا</h2>
-                    </div>
-
-                    <p>
-                        مجموعة مختارة من السجاد اليدوي، لكل قطعة شخصيتها
-                        وتفاصيلها الخاصة.
-                    </p>
-                </div>
-
-                <div class="rug-grid">
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image3.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">01</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Heritage Collection</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image2.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">02</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Classic Collection</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image5.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">03</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Signature Collection</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image6.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">04</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Limited Edition</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image4.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">05</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Modern Heritage</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                    <article class="rug-card">
-                        <div class="rug-image">
-                            <img src="images/image1.jpeg" alt="سجادة يدوية"
-                                 onerror="this.style.display='none';">
-                            <span class="rug-number">06</span>
-                        </div>
-                        <div class="rug-info">
-                            <h3>Royal Selection</h3>
-                            <p>Handwoven Rug</p>
-                        </div>
-                    </article>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- ================= SERVICES ================= -->
-        <section class="services section" id="services">
-            <div class="container">
-
-                <div class="section-heading centered">
-                    <p class="section-kicker">OUR SERVICES</p>
-                    <h2>تجربة عُقدة</h2>
-                    <p>
-                        لأن اختيار السجادة المناسبة يحتاج إلى تجربة مريحة،
-                        جعلنا خطواتك أسهل.
-                    </p>
-                </div>
-
-                <div class="services-grid">
-
-                    <div class="service-card">
-                        <div class="service-icon">⌂</div>
-                        <span>01</span>
-                        <h3>Home Viewing</h3>
-                        <p>
-                            شاهد القطع في منزلك واختر ما يناسب مساحتك
-                            وأجواء المكان بشكل أفضل.
-                        </p>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">↗</div>
-                        <span>02</span>
-                        <h3>24h Delivery</h3>
-                        <p>
-                            توصيل سريع خلال 24 ساعة لتستمتع باختيارك
-                            في أسرع وقت.
-                        </p>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">✦</div>
-                        <span>03</span>
-                        <h3>Curated Collection</h3>
-                        <p>
-                            تشكيلة مختارة بعناية من السجاد اليدوي
-                            لمحبي القطع المميزة.
-                        </p>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">◇</div>
-                        <span>04</span>
-                        <h3>Personal Selection</h3>
-                        <p>
-                            نساعدك في اختيار القطعة التي تتناسب مع
-                            ذوقك ومساحتك.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- ================= STATEMENT ================= -->
-        <section class="statement">
-            <div class="container">
-                <p>HANDWOVEN • HERITAGE • CRAFT</p>
-                <h2>
-                    بعض القطع تُشترى...<br>
-                    <span>وبعضها تُورّث.</span>
-                </h2>
-            </div>
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-        <section class="contact section" id="contact">
-            <div class="container contact-box">
-
-                <div class="contact-content">
-                    <p class="section-kicker">GET IN TOUCH</p>
-                    <h2>قطعتك القادمة<br><span>تبدأ من هنا.</span></h2>
-                    <p>
-                        للاستفسار عن المجموعة أو طلب مشاهدة منزلية،
-                        تواصل معنا عبر أي من حساباتنا.
-                    </p>
-                </div>
-
-                <div class="social-links">
-
-                    <!-- غيّر الروابط فقط -->
-                    <a href="https://www.facebook.com/share/1Qh4YVMv9L/" target="_blank" rel="noopener" class="social-link">
-                        <span class="social-icon"><i class="fa-brands fa-facebook-f"></i></span>
-                        <span>Facebook</span>
-                        <span>↗</span>
-                    </a>
-
-                    <a href="https://www.instagram.com/okdaaa88?stkn=OG5kMmdsbGdleWFt" target="_blank" rel="noopener" class="social-link">
-                        <span class="social-icon"><i class="fa-brands fa-instagram"></i></span>
-                        <span>Instagram</span>
-                        <span>↗</span>
-                    </a>
-
-                    <!-- اكتب رقم الواتساب بصيغة دولية بدون + أو مسافات -->
-                    <a href="https://wa.me/201222663171" target="_blank" rel="noopener" class="social-link">
-                        <span class="social-icon"><i class="fa-brands fa-whatsapp"></i></span>
-                        <span>WhatsApp</span>
-                        <span>↗</span>
-                    </a>
-
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-    <footer class="footer">
-        <div class="container footer-content">
-
-            <div class="footer-brand">
-                <div class="logo-wrap footer-logo">
-                    <img src="images/Logo.jpeg" alt="OKDA Logo"
-                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <span class="logo-fallback">OKDA</span>
-                </div>
-
-                <div>
-                    <strong>عُقدة | OKDA</strong>
-                    <p>Handwoven Rugs Since 1981</p>
-                </div>
-            </div>
-
-            <div class="footer-social">
-                <a href="https://www.facebook.com/share/1Qh4YVMv9L/" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/okdaaa88?stkn=OG5kMmdsbGdleWFt" target="_blank">Instagram</a>
-                <a href="https://wa.me/201222663171" target="_blank">WhatsApp</a>
-            </div>
-
-            <p class="copyright">
-                © 2026 OKDA. All Rights Reserved.
-            </p>
-
+        <div class="hero-art reveal reveal-delay">
+          <div class="hero-art__halo"></div>
+          <div class="hero-art__frame">
+            <img class="hero-art__main" src="images/image16.jpeg" alt="سجادة يدوية ضمن مجموعة عُقدة" fetchpriority="high">
+          </div>
+          <div class="hero-art__tag"><span>THE ART OF</span><strong>HAND KNOTTING</strong><small>ROOTED IN HERITAGE</small></div>
+          <div class="hero-art__stamp"><span>OKDA</span><small>EST. 1981</small></div>
+          <div class="hero-art__mini hero-art__mini--top"><img src="images/image11.jpeg" alt="تفاصيل نسيج سجادة يدوية"></div>
+          <div class="hero-art__mini hero-art__mini--bottom"><img src="images/image23.jpeg" alt="تفاصيل تصميم سجادة من مجموعة عُقدة"></div>
         </div>
-    </footer>
+      </div>
+      <a href="#story" class="scroll-cue"><span></span> اكتشف الحكاية</a>
+    </section>
 
+    <!-- Brand strip -->
+    <div class="craft-strip"><div class="craft-strip__track"><span>ROOTED IN HERITAGE</span><b>✳</b><span>CRAFTED BY HAND</span><b>✳</b><span>TIMELESS DETAILS</span><b>✳</b><span>HANDWOVEN SINCE 1981</span><b>✳</b><span>ROOTED IN HERITAGE</span><b>✳</b><span>CRAFTED BY HAND</span><b>✳</b></div></div>
 
-    <script src="script.js"></script>
+    <!-- Story -->
+    <section class="story-section section-pad" id="story">
+      <div class="container story-grid">
+        <div class="story-media reveal">
+          <div class="story-slider" id="aboutSlider">
+            <img src="images/image20.jpeg" alt="سجادة يدوية من مجموعة عُقدة" loading="lazy">
+            <img src="images/image11.jpeg" alt="تفاصيل سجادة يدوية من عُقدة" loading="lazy">
+            <img src="images/image18.jpeg" alt="سجادة يدوية في مساحة معيشة" loading="lazy">
+            <img src="images/image15.jpeg" alt="سجادة كلاسيكية ضمن مختارات عُقدة" loading="lazy">
+            <img src="images/image13.jpeg" alt="تفاصيل سجادة شرقية" loading="lazy">
+            <img src="images/image7.jpeg" alt="سجادة يدوية في غرفة معيشة" loading="lazy">
+            <img src="images/image8.jpeg" alt="سجادة يدوية بتصميم هادئ" loading="lazy">
+            <img src="images/image9.jpeg" alt="سجادة فاتحة ضمن مجموعة عُقدة" loading="lazy">
+            <img src="images/image10.jpeg" alt="تفاصيل سجادة يدوية" loading="lazy">
+            <img src="images/image16.jpeg" alt="سجادة كلاسيكية في منزل" loading="lazy">
+            <img src="images/image12.jpeg" alt="سجادة يدوية بتصميم معاصر" loading="lazy">
+            <img src="images/image17.jpeg" alt="سجادة ضمن ديكور منزلي" loading="lazy">
+            <img src="images/image19.jpeg" alt="تفاصيل نقوش سجادة يدوية" loading="lazy">
+            <img src="images/image21.jpeg" alt="سجادة في مجلس كلاسيكي" loading="lazy">
+            <img src="images/image22.jpeg" alt="سجادة يدوية في مساحة داخلية" loading="lazy">
+            <img src="images/image23.jpeg" alt="تفاصيل سجادة شرقية يدوية" loading="lazy">
+          </div>
+          <div class="story-media__caption"><span>01 / 16</span><strong>كل عقدة… لها حكاية</strong></div>
+          <div class="story-media__seal">OKDA <span>1981</span></div>
+        </div>
+        <div class="story-copy reveal reveal-delay">
+          <p class="section-kicker">THE STORY OF OKDA</p>
+          <h2>حكاية من التراث،<br><span>تُنسج عقدة بعد عقدة.</span></h2>
+          <p>في عُقدة | OKDA، نؤمن أن السجادة اليدوية ليست مجرد قطعة تُكمل الديكور؛ إنها تفصيلة تحمل روح المكان، وذوق أصحابه، وحرفة امتدت عبر الأجيال.</p>
+          <p>منذ 1981، نحتفي بجمال الصناعة اليدوية ونختار قطعًا تجمع بين أصالة التراث وجودة الخامة ودقة التفاصيل.</p>
+          <div class="story-signature"><span>Rooted in Heritage.</span><span>Crafted by Hand.</span></div>
+          <a class="text-link" href="#offers">استكشف المجموعة <i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Black Friday prices -->
+    <section class="offers-section section-pad" id="offers">
+      <div class="offers-glow"></div>
+      <div class="container offers-container">
+        <div class="offers-heading reveal">
+          <p class="section-kicker">LIMITED BLACK FRIDAY OFFER</p>
+          <div class="offers-title-line"><h2>اختار قطعتك،<br><span>والفرصة علينا.</span></h2><div class="discount-seal"><strong>31%</strong><span>خصومات<br>حتى</span></div></div>
+          <p>أسعار خاصة للمتر المربع على أنواع السجاد اليدوي. اسألنا عن المقاسات والتفاصيل المتاحة.</p>
+          <div class="offer-note"><i class="fa-solid fa-tag"></i> الأسعار بالجنيه المصري لكل متر مربع</div>
+        </div>
+        <div class="price-grid" id="priceGrid">
+          <a class="price-card reveal" data-category="wool" href="products/wool.html" aria-label="عرض تفاصيل سجاد صوف">
+            <div class="price-card__image"><img src="images/wool.jpeg" alt="سجادة من مختارات الصوف" loading="lazy"><span>01</span></div>
+            <div class="price-card__body"><p class="price-card__type">WOOL COLLECTION</p><h3>سجاد صوف</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>8,000 جنيه</del></div><div class="price-card__current-price"><strong>5,900 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 26% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card reveal reveal-delay" data-category="wool-silk" href="products/wool-on-silk.html" aria-label="عرض تفاصيل سجاد صوف على حرير">
+            <div class="price-card__image"><img src="images/wool on silk.jpeg" alt="سجادة من مختارات الصوف على حرير" loading="lazy"><span>02</span></div>
+            <div class="price-card__body"><p class="price-card__type">WOOL ON SILK</p><h3>سجاد صوف على حرير</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>9,000 جنيه</del></div><div class="price-card__current-price"><strong>6,500 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 28% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card price-card--featured reveal" data-category="silk" href="products/silk.html" aria-label="عرض تفاصيل سجاد حرير">
+            <div class="price-card__image"><img src="images/cotton.jpeg" alt="سجادة من مختارات الحرير" loading="lazy"><span>03</span><b>اختيار مميز</b></div>
+            <div class="price-card__body"><p class="price-card__type">SILK COLLECTION</p><h3>سجاد حرير</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>12,000 جنيه</del></div><div class="price-card__current-price"><strong>9,000 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 25% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card reveal" data-category="natural-silk" href="products/natural-silk.html" aria-label="عرض تفاصيل سجاد حرير طبيعي 100%">
+            <div class="price-card__image"><img src="images/silk.jpeg" alt="سجادة من مختارات الحرير الطبيعي" loading="lazy"><span>04</span></div>
+            <div class="price-card__body"><p class="price-card__type">100% NATURAL SILK</p><h3>سجاد حرير طبيعي 100%</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>45,000 جنيه</del></div><div class="price-card__current-price"><strong>31,000 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 31% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card reveal reveal-delay" data-category="khan" href="products/khan-mohammadi-afghani.html" aria-label="عرض تفاصيل سجاد خان محمدي أفغاني">
+            <div class="price-card__image"><img src="images/khan mohammadi.jpeg" alt="سجادة من مختارات خان محمدي الأفغاني" loading="lazy"><span>05</span></div>
+            <div class="price-card__body"><p class="price-card__type">AFGHAN COLLECTION</p><h3>سجاد خان محمدي أفغاني</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>12,000 جنيه</del></div><div class="price-card__current-price"><strong>8,900 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 26% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card reveal" data-category="bukhara" href="products/bukhara-pakistani.html" aria-label="عرض تفاصيل سجاد بخارة باكستاني">
+            <div class="price-card__image"><img src="images/bukhara.jpeg" alt="سجادة من مختارات بخارة باكستاني" loading="lazy"><span>06</span></div>
+            <div class="price-card__body"><p class="price-card__type">PAKISTANI COLLECTION</p><h3>سجاد بخارة باكستاني</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>16,000 جنيه</del></div><div class="price-card__current-price"><strong>12,500 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 22% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+          <a class="price-card reveal reveal-delay" data-category="modern" href="products/modern.html" aria-label="عرض تفاصيل سجاد مودرن">
+            <div class="price-card__image"><img src="images/modern.jpeg" alt="سجادة من مجموعة المودرن" loading="lazy"><span>07</span></div>
+            <div class="price-card__body"><p class="price-card__type">MODERN COLLECTION</p><h3>سجاد مودرن</h3><div class="price-card__price"><div class="price-card__old-price"><span>قبل العرض</span><del>8,000 جنيه</del></div><div class="price-card__current-price"><strong>5,900 <small>جنيه</small></strong><span>سعر المتر المربع</span></div></div><p class="price-card__fine">خصم 26% · سعر عرض Black Friday</p><span class="price-card__detail">عرض تفاصيل النوع <i>↗</i></span></div>
+          </a>
+        </div>
+        <p class="prices-disclaimer">الأسعار للمتر المربع. السعر النهائي يتحدد حسب المقاس والتصميم والقطعة المتاحة. تواصل معنا لتأكيد التفاصيل.</p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience-section section-pad" id="experience">
+      <div class="container">
+        <div class="section-head section-head--center reveal"><div><p class="section-kicker">THE OKDA EXPERIENCE</p><h2>اختيارك يبدأ <span>من راحتك</span></h2></div><p>نقرّب لك التجربة، عشان تختار القطعة المناسبة لمكانك وأسلوبك.</p></div>
+        <div class="experience-grid">
+          <article class="experience-card reveal"><span class="experience-card__number">01</span><div class="experience-card__icon"><i class="fa-solid fa-house"></i></div><h3>مشاهدة منزلية</h3><p>شوف السجادة في بيتك، وسط ألوان الأثاث والإضاءة والمساحة الحقيقية.</p><small>HOME VIEWING</small></article>
+          <article class="experience-card reveal reveal-delay"><span class="experience-card__number">02</span><div class="experience-card__icon"><i class="fa-solid fa-truck-fast"></i></div><h3>توصيل خلال 24 ساعة</h3><p>خدمة توصيل سريعة تساعدك تستمتع باختيارك من غير انتظار طويل.</p><small>24H DELIVERY</small></article>
+          <article class="experience-card reveal"><span class="experience-card__number">03</span><div class="experience-card__icon"><i class="fa-solid fa-hand-sparkles"></i></div><h3>مختارات بعناية</h3><p>تنوع في النقوش والخامات والتصميمات لتلاقي القطعة الأقرب لذوقك.</p><small>CURATED COLLECTION</small></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand statement -->
+    <section class="statement-section">
+      <div class="statement-pattern"></div>
+      <div class="container statement-content reveal">
+        <p class="section-kicker">ROOTED IN HERITAGE · CRAFTED BY HAND</p>
+        <h2>بعض القطع تُشترى…<br><span>وبعضها تُورّث.</span></h2>
+        <a class="button button--gold" href="#contact">خلّينا نساعدك تختار <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section section-pad" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-copy reveal"><p class="section-kicker">LET'S CONNECT</p><h2>قطعتك القادمة<br><span>تبدأ من هنا.</span></h2><p>للاستفسار عن الأنواع والأسعار والمقاسات، أو لطلب المشاهدة المنزلية، تواصل مع عُقدة.</p><div class="contact-promise"><i class="fa-regular fa-clock"></i> فريقنا جاهز لمساعدتك في اختيار الأنسب.</div></div>
+        <div class="contact-links reveal reveal-delay">
+          <a href="https://wa.me/201222663171" target="_blank" rel="noopener" class="contact-link"><span class="contact-link__icon"><i class="fa-brands fa-whatsapp"></i></span><span><small>تواصل مباشر</small><strong>WhatsApp</strong></span><i class="fa-solid fa-arrow-up-left-from-circle"></i></a>
+          <a href="https://www.facebook.com/share/1Qh4YVMv9L/" target="_blank" rel="noopener" class="contact-link"><span class="contact-link__icon"><i class="fa-brands fa-facebook-f"></i></span><span><small>تابع مختاراتنا</small><strong>Facebook</strong></span><i class="fa-solid fa-arrow-up-left-from-circle"></i></a>
+          <a href="https://www.instagram.com/okdaaa88?stkn=OG5kMmdsbGdleWFt" target="_blank" rel="noopener" class="contact-link"><span class="contact-link__icon"><i class="fa-brands fa-instagram"></i></span><span><small>شاهد التفاصيل</small><strong>Instagram</strong></span><i class="fa-solid fa-arrow-up-left-from-circle"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a href="#home" class="brand brand--footer"><span class="brand__logo"><img src="images/Logo.jpeg" alt="شعار عُقدة"></span><span class="brand__copy"><strong>عُقدة <em>|</em> OKDA</strong><small>HANDWOVEN RUGS SINCE 1981</small></span></a>
+      <p>Rooted in Heritage. Crafted by Hand.</p>
+      <a href="#home" class="back-top">العودة للأعلى ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> OKDA. All Rights Reserved.</span><span>Handwoven Rugs Since 1981</span></div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
