@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-        <loc>https://alhassan2005.github.io/okda-website/</loc>
-    </url>
-
+  <url><loc>https://alhassan2005.github.io/okda-website/</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/wool.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/wool-on-silk.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/silk.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/natural-silk.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/khan-mohammadi-afghani.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/bukhara-pakistani.html</loc></url>
+  <url><loc>https://alhassan2005.github.io/okda-website/products/modern.html</loc></url>
 </urlset>
